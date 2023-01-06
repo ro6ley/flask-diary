@@ -14,7 +14,7 @@ jobs:
         coverage run -m pytest
 
     - name: Upload coverage data to coveralls.io
-      run: coveralls --service=github
       env:
         GITHUB_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
         COVERALLS_PARALLEL: true
+      run: coveralls --service=github
