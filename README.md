@@ -55,12 +55,12 @@ These are instructions for setting up Diary API in development environment.
 
 * create database tables:
   ```
-  $  python -m flask db migrate
+  $ python -m flask db migrate
   ```
 
 * run development server:
   ```
-    $ python -m flask run
+  $ python -m flask run
   ```
 
 The API is now available at `http://localhost:5000/`.
@@ -95,6 +95,6 @@ The API endpoints in summary:
 
 To run the tests:
 
-```
+  ```
   $ pytest
-```
+  ```
