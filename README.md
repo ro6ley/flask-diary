@@ -75,19 +75,19 @@ The API endpoints in summary:
 | GET /api/entries/                                           | Fetch all entries                  |
 | GET /api/entries/\<entryId>/                                 | Fetch a single entry               |
 | POST /api/entries/                                          | Create an entry                    |
-| PUT /api/entries/\<entryId>/                                 | Modify an entry                    |
+| PATCH /api/entries/\<entryId>/                                 | Modify an entry                    |
 | DELETE /api/entries/\<entryId>/                              | Delete an entry                    |
 | **Categories**                                              |                                    |
 | GET /api/categories/                                        | Fetch all categories               |
 | GET /api/categories/\<categoryId>/                          | Fetch a single category            |
 | POST /api/categories/                                       | Create a category                  |
-| PUT /api/categories/\<categoryId>/                          | Modify a category                  |
+| PATCH /api/categories/\<categoryId>/                          | Modify a category                  |
 | DELETE /api/categories/\<categoryId>/                       | Delete a category                  |
 | **Articles**                                                |                                    |
 | GET /api/categories/\<categoryId>/articles/                 | Fetch all articles in a category   |
 | GET /api/categories/\<categoryId>/articles/\<articleID>/    | Fetch a single article             |
 | POST /api/categories/                                       | Create an article                  |
-| PUT /api/categories/\<categoryId>/articles/\<articleID>/    | Modify an article                  |
+| PATCH /api/categories/\<categoryId>/articles/\<articleID>/    | Modify an article                  |
 | DELETE /api/categories/\<categoryId>/articles/\<articleID>/ | Delete an article                  |
 
 
