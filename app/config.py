@@ -6,7 +6,7 @@ class Config:
     DEVELOPMENT = False
     TESTING = False
     SECRET_KEY = os.getenv("SECRET_KEY", "find-me-if-you-can")
-    SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL", "postgresql:///flask_diary")  # postgres://robley:password@localhost:5432/flask_diary
+    SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_URL", "postgresql:///flask_diary")
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
