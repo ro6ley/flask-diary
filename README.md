@@ -36,7 +36,7 @@ These are instructions for setting up Diary API in development environment.
 * clone the project:
   ```
   $ git clone https://github.com/ro6ley/flask-diary.git
-  $ cd flask-diray
+  $ cd flask-diary
   ```
 
 * prepare virtual environment and install the project requirements:
